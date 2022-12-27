@@ -4,7 +4,9 @@
   "description": "Source code for the website portion of Duck Pond Studios' \"Jetty\" ESP32 hub",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
