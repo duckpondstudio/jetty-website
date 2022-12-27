@@ -1,0 +1,20 @@
+{
+  "name": "jetty-website",
+  "version": "1.0.0",
+  "description": "Source code for the website portion of Duck Pond Studios' \"Jetty\" ESP32 hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duckpondstudio/jetty-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duckpondstudio/jetty-website/issues"
+  },
+  "homepage": "https://github.com/duckpondstudio/jetty-website#readme"
+}
