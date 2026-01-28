@@ -1,2 +1,16 @@
-# ignore dist folder
-# /[Dd]ist
+# dependencies 
+/node_modules
+
+# build output 
+/[Dd]ist
+/build
+
+# logs 
+*.log
+logs/
+
+# env vars 
+.env
+
+# os files 
+.DS_Store
