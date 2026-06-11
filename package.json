@@ -1,31 +1,37 @@
 {
-  "name": "jetty-website",
-  "version": "1.0.0",
-  "description": "Source code for the website portion of Duck Pond Studios' \"Jetty\" ESP32 hub",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/duckpondstudio/jetty-website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/duckpondstudio/jetty-website/issues"
-  },
-  "homepage": "https://github.com/duckpondstudio/jetty-website#readme",
-  "devDependencies": {
-    "css-loader": "^6.7.3",
-    "html-webpack-plugin": "^5.5.0",
-    "jquery": "^3.6.3",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^5.2.3"
-  }
+    "name": "jetty-website",
+    "version": "1.0.0",
+    "description": "Source code for the website portion of Duck Pond Studios' \"Jetty\" ESP32 hub",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "webpack --watch",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/duckpondstudio/jetty-website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/duckpondstudio/jetty-website/issues"
+    },
+    "homepage": "https://github.com/duckpondstudio/jetty-website#readme",
+    "devDependencies": {
+        "css-loader": "^6.7.3",
+        "html-webpack-plugin": "^5.5.0",
+        "jquery": "^3.6.3",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^5.2.3"
+    },
+    "overrides": {
+        "uuid": "^14.0.0",
+        "sockjs": {
+            "uuid": "^14.0.0"
+        }
+    }
 }
